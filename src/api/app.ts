@@ -2,7 +2,7 @@ import cors from "cors";
 import express from "express";
 import { config } from "dotenv";
 import routes from "./routes/routes";
-import { corsOptions } from "./helper/index";
+import { corsOptions } from "./helpers/index";
 
 config();
 
